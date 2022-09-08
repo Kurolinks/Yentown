@@ -31,9 +31,11 @@ header {
 }
 
 .ilabel {
+    color: white;
     cursor: pointer;
     font-size: 17px;
     padding-left: 15px;
+    text-decoration: none;
 }
 
 .main {
