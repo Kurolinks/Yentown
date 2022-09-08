@@ -9,7 +9,7 @@ body {
 
 .picture {
     background-image: url(001.jpg);
-    background-size: 90%;
+    background-size: 100%;
     padding-top: 20px;
 }
 
@@ -109,6 +109,7 @@ footer {
     align-items: center;
     background: #292E32;
     color: white;
+    margin-top: 100px;
     padding-bottom: 30px;
     padding-top: 10px;
     text-align: center;
