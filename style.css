@@ -167,9 +167,40 @@ img.icon{
     padding-top: 130px;
 }
 
+.form_left{
+    padding-left: 150px;
+}
+
+.form_header{
+    font-size: 11px;
+}
+
+.form_contact{
+    padding-bottom: 4px;
+}
+
+.form_address{
+    padding-bottom: 1px;
+}
+
 .form_email {
     color: blue;
     cursor: pointer;
+}
+
+.form img {
+    cursor: pointer;
+    height: 20px;
+    width: 15px;
+}
+
+.img2 {
+    padding-left: 10px;
+}
+
+
+.img3 {
+    padding-left: 10px;
 }
 
 .form_input {
@@ -181,18 +212,27 @@ img.icon{
     width: 400px;
 }
 
+.f_message {
+    color: grey;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
 .third_input {
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    width: 400px;
 }
 
-.form img {
-    cursor: pointer;
-    height: 20px;
-    width: 15px;
+.form_button {
+    background-color: white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    height: 35px;
 }
 
 footer {
