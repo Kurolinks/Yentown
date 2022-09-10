@@ -155,13 +155,44 @@ img.icon{
 .paragraphs {
     color: black;
     display: flex;
+    justify-content: center;
 }
 
-form {
+.form {
+    align-items: center;
     color: black;
     display: flex;
+    justify-content: center;
     padding-bottom: 250px;
     padding-top: 130px;
+}
+
+.form_email {
+    color: blue;
+    cursor: pointer;
+}
+
+.form_input {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    height: 25px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.third_input {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.form img {
+    cursor: pointer;
+    height: 20px;
+    width: 15px;
 }
 
 footer {
@@ -175,6 +206,6 @@ footer {
 
 footer img{
     cursor: pointer;
-    height: 15px;
-    width: 10px;
+    height: 20px;
+    width: 15px;
 }
