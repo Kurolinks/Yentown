@@ -70,6 +70,11 @@ h1 {
     height: 45px;
     width: 110px
 }
+.header_p {
+    background: #E9F2FB;
+    padding-bottom: 55px;
+    padding-top: 25px;
+}
 
 h2{
     color: dodgerblue;
@@ -81,6 +86,11 @@ h2{
     color: dodgerblue;
     text-align: center;
     font-size: 17px;
+}
+
+.picture_gallery {
+    background: #E9F2FB;
+    padding-bottom: 0px;
 }
     
     .flex-container{
@@ -127,12 +137,25 @@ h2{
         height: 18px;
     }
 
+.gallery_button_div{
+    height: 100px;
+    padding-top: 0px;
+}
+
 .see_more {
-    align-content: center;
-    background-color: #2AC9E4;
+    background: #2AC9E4;
     border: 1px #2AC9E4;
     color: white;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 630px;
+    margin-top: 10px;
     text-align: center;
+    text-decoration: none;
+}
+
+.see_more:hover {
+    height: 40px;
 }
 
 .middle_img {
@@ -192,6 +215,10 @@ h2{
     justify-content: center;
 }
 
+.left_paragraph {
+    padding-right: 100px;
+}
+
 .form {
     align-items: center;
     color: black;
@@ -202,7 +229,8 @@ h2{
 }
 
 .form_left{
-    padding-left: 150px;
+    padding-left: 0px;
+    padding-right: 180px;
 }
 
 .form_header{
