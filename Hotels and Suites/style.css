@@ -6,7 +6,6 @@ body{
 }
 .suites{
     background-color: lightcyan;
-    
 }
 
 .picture {
@@ -71,6 +70,12 @@ h1 {
     width: 110px
 }
 
+.header_p {
+    background: #E9F2FB;
+    padding-bottom: 55px;
+    padding-top: 25px;
+}
+
 h2{
     color: dodgerblue;
     text-align: center;
@@ -83,6 +88,11 @@ h2{
     font-size: 17px;
 }
     
+.picture_gallery {
+    background: #E9F2FB;
+    padding-bottom: 0px;
+}
+
     .flex-container{
         display: flex;
         flex-direction: row;

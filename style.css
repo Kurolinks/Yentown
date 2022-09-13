@@ -39,6 +39,10 @@ header {
     text-decoration: none;
 }
 
+.ilabel:hover {
+    text-decoration: underline;
+}
+
 .main {
     background: white;
     color: white;
@@ -68,8 +72,14 @@ h1 {
     cursor: pointer;
     color: white;
     height: 45px;
-    width: 110px
+    width: 110px;
 }
+
+.visit:hover {
+    height: 50px;
+    width: 115px;
+}
+
 .header_p {
     background: #E9F2FB;
     padding-bottom: 55px;
@@ -98,11 +108,6 @@ h2{
         flex-direction: row;
     }
     
-    @media (max-width:800px){
-        .flex-container{
-            flex-direction: column;
-        }
-    }
     
     .flex-container > div{
         margin: 20px;
@@ -274,6 +279,15 @@ h2{
     width: 400px;
 }
 
+.form_input:active {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    height: 25px;
+    margin-top: 15px;
+    width: 400px;
+}
+
 .f_message {
     color: grey;
     font-size: 13px;
@@ -314,4 +328,36 @@ footer img{
 
 span{
     margin: 8px;
+}
+
+@media (max-width:800px){
+
+    body {
+        
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .middle_img {
+        width: 400px;
+    }
+
+    .paragraphs {
+        flex-direction: column;
+    }
+
+
+    form {
+        flex-direction: column;
+    }
+
+    .white {
+        flex-direction: column;
+    }
+
+    .footer {
+
+    }
+
 }
