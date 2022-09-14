@@ -38,6 +38,10 @@ header {
     text-decoration: none;
 }
 
+.ilabel:hover {
+    text-decoration: underline;
+}
+
 .main {
     background: white;
     color: white;
@@ -68,6 +72,11 @@ h1 {
     color: white;
     height: 45px;
     width: 110px
+}
+
+.visit:hover {
+    height: 50px;
+    width: 115px;
 }
 
 .header_p {
