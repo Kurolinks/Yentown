@@ -1,0 +1,104 @@
+* {
+  font-family: "Proxima Nova", sans-serif;
+}
+body {
+  margin: 0px;
+}
+.suites {
+  background-color: lightcyan;
+}
+
+.picture {
+  background-image: url(001.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding-bottom: 150px;
+  padding-top: 20px;
+}
+
+header {
+  display: flex;
+}
+
+.nav {
+  font-size: 34px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+}
+
+.items {
+  padding-left: 320px;
+}
+
+.ilabel {
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.ilabel:hover {
+  text-decoration: underline;
+}
+
+.main {
+  background: white;
+  color: white;
+}
+
+.Yen {
+  text-align: left;
+  font-size: 90px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+.think {
+  color: white;
+  height: 300px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+}
+
+.think p {
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.visit {
+  background: #2ac9e4;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  height: 45px;
+  width: 110px;
+}
+
+.visit:hover {
+  height: 50px;
+  width: 115px;
+}
+
+footer {
+  align-items: center;
+  background: #292e32;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+footer img {
+  cursor: pointer;
+  height: 20px;
+  width: 15px;
+}
+
+span {
+  margin: 8px;
+}

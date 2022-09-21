@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yentown Lodgings</title>
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="picture">
+      <!-- Header section -->
+      <header>
+        <div class="nav">
+          <label>Yentown Lodgings Logo</label>
+        </div>
+        <div class="items">
+          <label for=""> <a class="ilabel" href="index.html"> HOME </a></label>
+          <label for="">
+            <a class="ilabel" href="Hotels and Suites/index.html">
+              HOTELS AND SUITES
+            </a>
+          </label>
+          <label for="">
+            <a class="ilabel" href="Services/services.html">
+              SERVICES
+            </a></label
+          >
+          <label for=""> <a class="ilabel" href=""> ABOUT US </a> </label>
+          <label for=""> <a class="ilabel" href=""> CONTACT US </a> </label>
+        </div>
+      </header>
+
+      <main>
+        <section class="think">
+          <h1 class="Yen">Yentown Lodgings</h1>
+          <p>
+            Visit various amazing hotels round the city <br />
+            of Yenagoa, Bayelsa State as well as make <br />
+            your bookings and reservations.
+          </p>
+          <button class="visit">Visit Now!!!</button>
+        </section>
+      </main>
+    </div>
+
+    <div class="all">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="first">
+            <div class="content">
+              <h1>White Castle Hotel</h1>
+              <p>
+                We are a body dedicated to providing both indigenes and visitors
+                of the state with budget friendly lodgings.We are a body
+                dedicated to providing both indigenes and visitors of the state
+                with budget friendly lodgings.We are a body dedicated to
+                providing both indigenes and visitors of the state with budget
+                friendly lodgings.
+              </p>
+              <button class="see">SEE MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="second">
+            <div class="content">
+              <h1>Sample Hotel</h1>
+              <p>Content for slide 2</p>
+              <button class="see">SEE MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="third">
+            <div class="content">
+              <h1>Sample Hotel</h1>
+              <p>Content for slide 3</p>
+              <button class="see">SEE MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="fourth">
+            <div class="content">
+              <h1>Sample Hotel</h1>
+              <p>Content for slide 4</p>
+              <button class="see">SEE MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+        <a class="next" onclick="plusSlides(1)"> ❯ </a>
+      </div>
+      <br />
+    </div>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+    <h1>About Us</h1>
+    <div class="about">
+      <div class="about-left">
+        <p>
+          We are a body dedicated to providing both indigenes and visitors of
+          the state with budget friendly lodgings.We are a body dedicated to
+          providing both indigenes and visitors of the state with budget
+          friendly lodgings.We are a body dedicated to providing both indigenes
+          and visitors of the state with budget friendly lodgings.
+        </p>
+      </div>
+      <div class="about-right">
+        <p>
+          We are a body dedicated to providing both indigenes and visitors of
+          the state with budget friendly lodgings.We are a body dedicated to
+          providing both indigenes and visitors of the state with budget
+          friendly lodgings.We are a body dedicated to providing both indigenes
+          and visitors of the state with budget friendly lodgings.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <h4>Yentown Lodgings</h4>
+      <img src="Img/facebook.png" alt="Facebook Icon" />
+      <img src="Img/twitter.png" alt="Twitter Icon" />
+      <img src="Img/instagram.png" alt="Instagram Icon" />
+      <img src="Img/linkedin.png" alt="Linkedin Icon" />
+      <p><i>Get the best of luxury apartments around Yenagoa</i></p>
+      <p><span>&#169;</span>2022 Yentown Lodgings</p>
+    </footer>
+  </body>
+</html>
