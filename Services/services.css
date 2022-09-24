@@ -9,7 +9,10 @@ body {
 
 .picture {
     background-image: url(001.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
+    color: white;
+    padding-bottom: 150px;
     padding-top: 20px;
 }
 
