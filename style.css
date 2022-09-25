@@ -406,7 +406,7 @@ span{
     margin: 8px;
 }
 
-@media (max-width:800px){
+@media (max-width:600px){
 
     body {
         
@@ -430,10 +430,22 @@ span{
 
     .white {
         flex-direction: column;
+        width: 500px;
     }
 
-    .footer {
-
+    .white div{
+        /* padding-left: 200px; */
+        padding-bottom: 20px;
+    }
+    .choose {
+        width: 600px;
     }
 
+    .container{
+        flex-direction: column;
+    }
+
+    footer {
+        width: 600px;
+    }
 }

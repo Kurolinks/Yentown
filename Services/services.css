@@ -150,6 +150,12 @@ footer img{
     .choose {
         width: 600px;
     }
+
+    .container{
+        background: red;
+        flex-direction: column;
+    }
+
     footer {
         width: 600px;
     }
