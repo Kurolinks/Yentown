@@ -228,7 +228,7 @@ h2{
     padding-right: 100px;
 }
 
-.form {
+/* .form {
     align-items: center;
     color: black;
     display: flex;
@@ -261,24 +261,29 @@ h2{
 .form_email {
     color: blue;
     cursor: pointer;
-}
+} */
 
-.form img {
+.cuimg1 {
     cursor: pointer;
-    height: 20px;
-    width: 15px;
+    height: 30px;
+    width: 20px;
 }
 
-.img2 {
+.cuimg2 {
+    cursor: pointer;
+    height: 30px;
     padding-left: 10px;
+    width: 20px;
 }
 
-
-.img3 {
+.cuimg3 {
+    cursor: pointer;
+    height: 30px;
     padding-left: 10px;
+    width: 20px;
 }
 
-.form_input {
+/* .form_input {
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
@@ -294,7 +299,8 @@ h2{
     height: 25px;
     margin-top: 15px;
     width: 400px;
-}
+} */
+/* }
 
 .f_message {
     color: grey;
@@ -318,6 +324,68 @@ h2{
     border-top: 0px;
     height: 35px;
 }
+
+/* CONTAXT US SECTION */
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+  
+.container-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.container-right {
+    flex-basis: 40%;
+    padding: 40px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#text,
+#email {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.submit:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.cuh2 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
 
 footer {
     align-items: center;
