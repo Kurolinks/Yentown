@@ -3,6 +3,7 @@
 }
 body{
     margin: 0px;
+    padding: 0px;
 }
 .suites{
     background-color: lightcyan;    
@@ -225,43 +226,13 @@ h2{
 }
 
 .left_paragraph {
+    padding-left: 70px;
     padding-right: 100px;
 }
 
-/* .form {
-    align-items: center;
-    color: black;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 250px;
-    padding-top: 130px;
+.right_paragraph {
+    padding-right: 70px;
 }
-
-.form_left{
-    padding-left: 0px;
-    padding-right: 330px;
-}
-
-.form_right{
-    padding-right: 160px;
-}
-
-.form_header{
-    font-size: 11px;
-}
-
-.form_contact{
-    padding-bottom: 4px;
-}
-
-.form_address{
-    padding-bottom: 1px;
-}
-
-.form_email {
-    color: blue;
-    cursor: pointer;
-} */
 
 .cuimg1 {
     cursor: pointer;
@@ -283,59 +254,32 @@ h2{
     width: 20px;
 }
 
-/* .form_input {
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    height: 25px;
-    margin-top: 15px;
-    width: 400px;
-}
-
-.form_input:active {
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    height: 25px;
-    margin-top: 15px;
-    width: 400px;
-} */
-/* }
-
-.f_message {
-    color: grey;
-    font-size: 13px;
-    margin-top: 15px;
-}
-
-.third_input {
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 400px;
-}
-
-.form_button {
-    background-color: white;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    height: 35px;
-}
-
-/* CONTAXT US SECTION */
+/* CONTACT US SECTION */
 
 .container {
-    width: 80%;
-    margin: 30px auto;
     display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    width: 88%;
+}
+
+.email {
+    color: blue;
 }
   
 .container-left {
     flex-basis: 60%;
-    padding: 40px 60px;
+    margin-left: 65px;
+    margin-right: 0px;
+    padding: 80px 0px 60px 0px;
+}
+
+.container-right {
+    
+}
+
+.container-left h2 {
+    text-align: left;
 }
 
 .container-right {
@@ -415,8 +359,12 @@ span{
         flex-direction: column;
     }
 
+    .see_more {
+        margin-left: 50px;
+    }
+
     .middle_img {
-        width: 400px;
+        width: 600px;
     }
 
     .paragraphs {
